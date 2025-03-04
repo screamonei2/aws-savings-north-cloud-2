@@ -6,6 +6,14 @@ Everything you need to build a Svelte project, powered by [`sv`](https://github.
 
 If you're seeing this, you've probably already done this step. Congrats!
 
+## How To
+
+You don't need to create .env file api keys.
+
+I took the chance to create a more robust and rich json so we could see different scenarios.
+
+
+
 ```bash
 # create a new project in the current directory
 npx sv create
