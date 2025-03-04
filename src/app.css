@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=trending_up');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=trending_down');
+
+@import 'tailwindcss';
+
+
+* {
+    font-family: "Red Hat Mono", monospace;
+    font-optical-sizing: auto;
+}
+
+body,
+.bg-north {
+    background: #1E2125
+}
+
+.border-north {
+    border-color: #3E404D;
+}
+
+.border-north-2 {
+    border-color: #2C2F34;
+}
+
+.text-green-north {
+    color: #00FFD1;
+}
+
+.text-red-north {
+    color: #ff0040;
+}
+
+.text-gray-north {
+    color: #AFB8C2;
+}
+
+.text-gray-north-sec {
+    color: #696E76;
+}
+
+.satoshi {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: normal;
+}
+
+.filter-container {
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+}
+
+.chip {
+    padding: 8px 16px;
+    border: 1px solid rgba(105, 110, 118, 0.5);
+    border-radius: 20px;
+    background-color: transparent;
+    color: rgba(105, 110, 118, 1);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    font-size: 14px;
+}
+
+.chip.active {
+    background-color: rgba(160, 111, 217, 1);
+    color: white;
+    border-color: rgba(160, 111, 217, 1);
+}
+
+.chip:hover {
+    background-color: rgba(160, 111, 217, 0.1);
+    border-color: rgba(160, 111, 217, 1);
+    color: rgba(160, 111, 217, 1);
+}
+
+.chip.active:hover {
+    background-color: rgba(160, 111, 217, 0.8);
+}
